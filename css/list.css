@@ -25,3 +25,7 @@
 .list__button--delete {
     background-color: red;
 }
+
+.list__item--done {
+    text-decoration: line-through;
+}
