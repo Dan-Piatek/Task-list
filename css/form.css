@@ -1,0 +1,30 @@
+.form__legend {
+    background-color: teal;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.form__fieldset {
+    border: none;
+}
+
+.form__fieldset--grid {
+    display: grid;
+    grid-template-columns: 5fr 200px;
+    grid-gap: 10px;
+    justify-items: stretch;
+}
+
+.form__formField {
+    padding: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.form__button {
+    color: white;
+    background-color: teal;
+    border-radius: 5px;
+    padding: 10px;
+}

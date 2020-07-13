@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twoja lista zadań</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/list.css " rel="stylesheet ">
+    <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map " integrity="undefined " crossorigin="anonymous " />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap " rel="stylesheet ">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body class="container ">
+    <header>
+        <h1>Lista zadań</h1>
+    </header>
+    <div class="section ">
+        <div class="section__item ">
+            <h2 class="section__header ">Dodaj zadanie:</h2>
+            <form class="js-form">
+                <fieldset class="form__fieldset ">
+                    <div class="form__fieldset--grid">
+                        <div><input class="form__formField js-newTask"></div>
+                        <div><button class="form__button js-submit">Dodaj zadanie</button></div>
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
+        <div class="section__item ">
+            <h2 class="section__header ">Zadania:</h2>
+            <ul class="list js-tasks">
+                <li class="list__item ">
+                    <div><button class="list__button list__button--done"><img src="image/done.png"
+                                width="100%"></button>
+                    </div>
+                    <div>Wstać</div>
+                    <div><button class="list__button list__button--delete">
+                            <img src="image/trash bin.png" width="100%"></button>
+                    </div>
+                </li>
+                <li class="list__item">
+                    <div><button class="list__button list__button--done"><img src="image/done.png"
+                                width="100%"></button>
+                    </div>
+                    <div>przeżyć</div>
+                    <div><button class="list__button list__button--delete">
+                            <img src="image/trash bin.png" width="100%">
+                        </button>
+                    </div>
+                </li>
+                <li class="list__item">
+                    <div><button class="list__button list__button--done"><img src="image/done.png"
+                                width="100%"></button>
+                    </div>
+                    <div>iść spać</div>
+                    <div>
+                        <button class="list__button list__button--delete">
+                            <img src="image/trash bin.png" width="100%">
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

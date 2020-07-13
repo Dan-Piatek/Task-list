@@ -1,0 +1,16 @@
+.section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    ;
+}
+
+.section__item {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+.section__header {
+    border-bottom: solid 1px #ccc;
+}

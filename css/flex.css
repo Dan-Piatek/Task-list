@@ -1,0 +1,7 @@
+.flex {
+    display: flex;
+}
+
+.flex__item {
+    flex-basis: 20%;
+}
