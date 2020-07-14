@@ -68,6 +68,7 @@
             return;
         }
         addNewTask(newTaskContent);
+        document.querySelector(".js-form").reset();
     };
 
     const init = () => {
@@ -76,6 +77,7 @@
         const form = document.querySelector(".js-form");
 
         form.addEventListener("submit", onFormSubmit);
+
 
     };
 

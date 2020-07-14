@@ -11,9 +11,16 @@
 
 .form__fieldset--grid {
     display: grid;
-    grid-template-columns: 5fr 200px;
+    grid-template-columns: 5fr 110px;
     grid-gap: 10px;
     justify-items: stretch;
+}
+
+@media (max-width: 756px) {
+    .form__fieldset--grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .form__formField {
@@ -27,4 +34,5 @@
     background-color: teal;
     border-radius: 5px;
     padding: 10px;
+    width: 100%
 }
